@@ -11,9 +11,11 @@
                 "-Wextra",
                 "-O2",
                 "-DONLINE_JUDGE",
+                "-I/opt/boost/gcc/include",
+                "-L/opt/boost/gcc/lib",
                 "-I${workspaceFolder}/ac-library",
                 "-o",
-                "'${workspaceFolder}/program'",
+                "'${workspaceFolder}/problem.exe'",
                 "'${file}'",
             ],
             "group": {
