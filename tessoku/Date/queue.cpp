@@ -8,13 +8,13 @@ int QueryType[100009]; string x[100009];
 queue<string> T;
 
 int main(){
-    //入力
+    // 入力
     cin >> Q;
     for (int i = 1; i <= Q; i++){
         cin >> QueryType[i];
         if (QueryType[i] == 1) cin >> x[i];
     }
-    //クエリの処理
+    // クエリの処理
     for (int i = 1; i <= Q; i++){
         if (QueryType[i] == 1) T.push(x[i]);
         if (QueryType[i] == 2) cout << T.front() << endl;
