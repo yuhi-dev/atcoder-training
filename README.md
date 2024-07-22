@@ -1,1 +1,1 @@
-# atcoder-training
+# joi-atcoder-training
